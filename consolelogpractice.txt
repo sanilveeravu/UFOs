@@ -1,0 +1,112 @@
+console.log("Hello, world!");
+VM196:1 Hello, world!
+undefined
+var y = 2;
+undefined
+console.log(y)
+VM276:1 2
+undefined
+function printHello(name){
+    console.log("Hello " + name);
+}
+undefined
+printHello("javascript")
+VM722:2 Hello javascript
+undefined
+function addition(a,b){
+    return a + b;
+}
+undefined
+console.log(addition(6,7))
+VM1010:1 13
+undefined
+addition(4,4)
+8
+function doubleAddition(c, d) {
+  var total = addition(c, d) * 2;
+  return total;
+}
+undefined
+doubleAddition(65,34)
+198
+
+
+undefined
+let square = (num) => num ** 2;
+undefined
+square(5)
+25
+doubleAddition = (c, d) => addition(c,d) * 2
+(c, d) => addition(c,d) * 2
+2
+2
+doubleAddition(2,4)
+12
+doubleAddition(33,25)
+116
+let friends = ["Sarah", "Greg", "Cindy", "Jeff"];
+
+undefined
+console.log(friends)
+VM1529:1 (4) ['Sarah', 'Greg', 'Cindy', 'Jeff']
+undefined
+function listLoop(userList) {
+   for (var i = 0; i < userList.length; i++) {
+     console.log(userList[i]);
+   }
+}
+undefined
+function loopList(userList) {
+    for (var i = 0; i < userList.length; i++) {
+        console.log(userList[i]);
+    }
+}
+undefined
+loopList(friends)
+VM2103:3 Sarah
+VM2103:3 Greg
+VM2103:3 Cindy
+VM2103:3 Jeff
+undefined
+let vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
+
+undefined
+for(var i=0; i< vegetables.length; i++){
+    console.log("I Love "+vegetables[i])
+}
+VM2464:2 I Love Carrots
+VM2464:2 I Love Peas
+VM2464:2 I Love Lettuce
+VM2464:2 I Love Tomatoes
+undefined
+for(var i=0;i<5;i++){
+    console.log("I am "+i);
+}
+VM2671:2 I am 0
+VM2671:2 I am 1
+VM2671:2 I am 2
+VM2671:2 I am 3
+VM2671:2 I am 4
+
+let numbers=[1,2,3,4,5,6]
+undefined
+numbers.forEach(function (element){
+    console.log(element ** 2)
+})
+VM3034:2 1
+VM3034:2 4
+VM3034:2 9
+VM3034:2 16
+VM3034:2 25
+VM3034:2 36
+
+numbers.forEach((element) => 
+    console.log(element ** 2)
+)
+VM3110:2 1
+VM3110:2 4
+VM3110:2 9
+VM3110:2 16
+VM3110:2 25
+VM3110:2 36
+undefined
